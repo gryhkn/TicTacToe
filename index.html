@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-500">
-    <div id="gameContainer" class="text-center text-3xl">
-        <h1 class=" mb-5 pt-10">Tic Tac Toe</h1>
-           <div id="cellContainer" class="grid grid-cols-3 w-64 m-auto text-center">
-             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
-           </div>
+<body>
+    <div id="gameContainer">
+        <h1>Fimple Tic Tac Toe</h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
         <h2 id="statusText"></h2>
-        <button id="restartBtn" class="bg-blue-600 rounded-full p-2">Restart</button>
+        <button id="restartBtn" class="button-19" role="button">Restart</button>
     </div>
     <script src="script.js"></script>
 </body>
