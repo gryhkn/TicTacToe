@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-500">
+    <div id="gameContainer" class="text-center text-3xl">
+        <h1 class=" mb-5 pt-10">Tic Tac Toe</h1>
+           <div id="cellContainer" class="grid grid-cols-3 w-64 m-auto text-center">
+             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="0" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="1" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+             <div cellIndex="2" id="cell" class="bg-blue-900 w-24 h-24 border-2 cursor-pointer text-5xl leading-10"></div>
+           </div>
+        <h2 id="statusText"></h2>
+        <button id="restartBtn" class="bg-blue-600 rounded-full p-2">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
